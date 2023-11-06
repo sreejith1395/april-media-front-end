@@ -1,0 +1,77 @@
+
+
+
+        REACT --- js library (front end development)
+        ------------------------------------------------
+
+        Basic commands
+
+        - to create project:npx create-react-app projectname
+        - to run project :npm start
+
+        Basic concepts
+
+        -reusable component based approach
+        -JSX:javasript Xml
+        -fast
+
+        -installing react material -----npm install @mui/material @emotion/react @emotion/styled
+
+        -to build project -----npm run build
+
+        react-bootstrap -----npm install react-bootstrap bootstrap
+
+        front  end difference
+
+
+        concept              angular               react                          vue
+        --------------------------------------------------------------------------------
+        1.developer        framework---google      library----meta/facebook      freamework--opensource
+
+        2.Language         typescript               javascript                   javascript 
+
+
+        3.Dom               real dom               virutal dom                  virtual dom 
+
+
+        4.data sharing     two data binding        one way data bining      twoway data binding 
+
+        
+
+   react      components base application 
+
+     components: create a js file having a name start with captial letter
+
+                 two types of components 
+
+                 1.Class based components--- stateful component
+                 
+                 2.function based components----sateless component 
+
+                 react hook-- hook is predefined function and name start with use key word 
+
+                use predefined-function()
+
+                use state()
+
+                state creation syntax
+
+                
+
+                const[statename,statevalueupadtionfunction]=useSate()
+
+     state:state is used to store values (also state has an advantage to transfer value)  we can share state to child component 
+
+     props : is used to share data between parent and child 
+
+
+     conditional rendering :
+
+
+
+
+     1.create watch history tab in home page 
+     2.create a new component for watch history 
+     3.(no,cardname,url,date)  create a watch history key in db.son 
+     4.when use click on the video card add data to db.json
+     5.get watch history from json file to watch history component 
